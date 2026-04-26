@@ -19,7 +19,7 @@ function App() {
 
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/students",
+        "https://labbackend-d0ba.onrender.com/api/students",
         student
       );
       setMessage("Student added successfully ✅");
